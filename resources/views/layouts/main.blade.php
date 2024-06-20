@@ -66,7 +66,7 @@
             </div>
             <div class="hidden md:flex space-x-4">
                 <a href="/" class="h-12 py-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] flex justify-end font-semibold text-center">INICIO</a>
-                <a href="#" class="h-12 py-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] flex justify-end font-semibold text-center">LOJAS</a>
+                <a href="/lojas" class="h-12 py-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] flex justify-end font-semibold text-center">LOJAS</a>
                 <a href="#" class="h-12 py-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] flex justify-end font-semibold text-center">PRODUTOS</a>
                 <a href="#" class="h-12 py-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] flex justify-end font-semibold text-center">FORNECEDORES</a>
                 <a href="#" class="h-12 py-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] flex justify-end font-semibold text-center">SOBRE NÓS</a>
@@ -83,7 +83,7 @@
         </div>
         <div id="mobile-menu" class="hidden md:hidden ">
             <a href="/" class="block p-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] justify-end font-semibold text-center">INICIO</a>
-            <a href="#" class="block p-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] justify-end font-semibold text-center">LOJAS</a>
+            <a href="/lojas" class="block p-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] justify-end font-semibold text-center">LOJAS</a>
             <a href="#" class="block p-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] justify-end font-semibold text-center">PRODUTOS</a>
             <a href="#" class="block p-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] justify-end font-semibold text-center">FORNECEDORES</a>
             <a href="#" class="block p-2 hover:border-b text-[#676664] cursor-pointer border-[#676664] justify-end font-semibold text-center">SOBRE NÓS</a>
