@@ -12,6 +12,11 @@ class EventController extends Controller
     {
         return view('welcome');
     }
+
+    public function store()
+    {
+        return view('stores');
+    }
     
     
 }
