@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -31,6 +32,11 @@
 </head>
 
 <body>
+
+    <div class="flex justify-center items-center">
+        @include('components.spinner')
+    </div>
+
     <header>
         <div class="h-10 bg-[#010C52] flex justify-center items-center">
             <div class="container flex justify-between items-center">
@@ -217,17 +223,20 @@
 
     {{-- navBar --}}
 
-    <script src="/js/navbar.js"></script>
-    <script src="/js/cep.js"></script>
+    <script defer src="/js/navbar.js"></script>
+    <script defer src="/js/cep.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     {{-- tailwind css --}}
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+
+    {{-- spinner --}}
+
 
 
 </body>
